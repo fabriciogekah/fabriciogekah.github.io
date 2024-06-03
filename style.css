@@ -205,3 +205,10 @@ header{
   padding-right: 15px;
   color: #1c1c6b;
 }
+
+.footer{
+  padding: 5px;
+  margin: 5px;
+  background-color: whitesmoke;
+  font-size: 10px;
+}
