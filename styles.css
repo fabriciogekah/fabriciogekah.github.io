@@ -1,0 +1,81 @@
+.header {
+    background-color: gainsboro;
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4%;
+    padding: 4px;
+}
+
+.container {
+    font-size: 75%;
+    font-family: "Roboto", system-ui;
+    font-weight: 200;
+    font-style: normal;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* largura total */
+}
+
+.mid-lt {
+    float: left;
+}
+
+.mid-rt {
+    float: right;
+    flex: 1; /* a div da direita ocupa menos espaço */
+    text-align: right; /* garante que o conteúdo fique alinhado à direita */
+}
+
+.mid-lt, .mid-rt {
+    flex: 1; /* divide o espaço igualmente */
+    padding-left: 10px;
+}
+
+.mid-lt img, .mid-rt img {
+    width: 75%; /* para garantir que a imagem ocupe toda a largura do container */
+    height: auto;
+}
+
+.mid-lt p {
+    margin-top: 10px;
+    text-align: center; /* centraliza o texto */
+}
+
+.bigfoot {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.bigfoot > h1 {
+    font-family: "Roboto", system-ui;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.button {
+    display: inline-block;
+}
+
+.button > h2 {
+    font-size: 75%;
+    font-family: "Roboto", system-ui;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.smallfoot {
+    font-size: 40%;
+    font-family: "Roboto", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    padding: 10px;
+}
